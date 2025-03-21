@@ -1,11 +1,40 @@
 programa {
   funcao inicio() {
-    real n1, n2, resultado
+
+    real n7, n8, resultado, n1, n2, resul,n3, n4, sub
     escreva("Digite o primeiro número: \n")
-    leia(n1)
+    leia(n7)
     escreva("Digite o segundo número: \n")
+    leia(n8)
+    resultado = n7 + n8
+    escreva("O resultado da soma entre ", n7, " e ", n8, " é ", resultado, ".")
+
+    
+
+    escreva("Digite o primeiro numero: ")
+    leia(n1)
+
+    se (n1 == 0){
+      escreva("O numero nao pode ser 0, digite outro  : ")
+      leia(n1)
+      }
+    escreva("Digite o segundo numero: ")
     leia(n2)
-    resultado = n1 + n2
-    escreva("O resultado da soma entre ", n1, " e ", n2, " é ", resultado, ".")
+    se (n2 == 0 ){
+      escreva("Digite o primeiro numero: ")
+      leia(n2)
+      }
+
+    resul = n1 / n2
+    escreva("O resultado é: ",resul)
+
+    
+    escreva ("Informe o primeiro valor: \n")
+    leia (n3)
+    escreva ("Informe o segundo valor: \n")
+    leia (n4)
+    sub = n3-n4
+    escreva ("O resultado é: ", sub)
+
   }
 }
