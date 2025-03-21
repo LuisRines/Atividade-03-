@@ -1,1 +1,25 @@
+programa {
+  funcao inicio() {
+    
+    real n1, n2, resul
+
+    escreva("Digite o primeiro numero: ")
+    leia(n1)
+
+    se (n1 == 0){
+      escreva("O numero nao pode ser 0, digite outro  : ")
+      leia(n1)
+      }
+    escreva("Digite o segundo numero: ")
+    leia(n2)
+    se (n2 == 0 ){
+      escreva("Digite o primeiro numero: ")
+      leia(n2)
+      }
+
+    resul = n1 / n2
+    escreva("O resultado é: ",resul)
+
+  }
+}
 
