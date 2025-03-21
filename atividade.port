@@ -1,37 +1,43 @@
 programa {
   funcao inicio() {
 
-    real n3, n4, sub, n1, n2, resul, n5,n6,mult
 
-escreva("Digite o primeiro número:")
+
+    real n7, n8, resultado, n1, n2, resul,n3, n4, sub,n5,n6,mult
+    
+    escreva("Digite o primeiro número: \n")
+    leia(n7)
+    escreva("Digite o segundo número: \n")
+    leia(n8)
+    resultado = n7 + n8
+    escreva("O resultado da soma entre ", n7, " e ", n8, " é ", resultado, ".")
+
+   
+
+     escreva("Digite o primeiro número:")
      leia(n5) 
      escreva("Digite o segundo número:")
      leia(n6) 
-mult = n5 * n6
-    escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult)
+      mult = n5 * n6
+     escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult)
   
 
-
-   
-    
-
-
-    escreva("Digite o primeiro numero: ")
+     escreva("Digite o primeiro numero: ")
     leia(n1)
 
-    se (n1 == 0){
+      se (n1 == 0){
       escreva("O numero nao pode ser 0, digite outro  : ")
       leia(n1)
       }
-    escreva("Digite o segundo numero: ")
-    leia(n2)
-    se (n2 == 0 ){
+      escreva("Digite o segundo numero: ")
+      leia(n2)
+      se (n2 == 0 ){
       escreva("Digite o primeiro numero: ")
       leia(n2)
       }
 
-    resul = n1 / n2
-    escreva("O resultado é: ",resul)
+      resul = n1 / n2
+      escreva("O resultado é: ",resul)
 
 
     escreva ("Informe o primeiro valor: \n")
@@ -41,6 +47,7 @@ mult = n5 * n6
     sub = n3-n4
 
     escreva ("O resultado é: ", sub)
+
   }
 }
 
