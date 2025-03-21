@@ -1,53 +1,50 @@
 programa {
   funcao inicio() {
-
-
-
     real n7, n8, resultado, n1, n2, resul,n3, n4, sub,n5,n6,mult
     
+    escreva("Soma:\n")
     escreva("Digite o primeiro número: \n")
     leia(n7)
     escreva("Digite o segundo número: \n")
     leia(n8)
     resultado = n7 + n8
-    escreva("O resultado da soma entre ", n7, " e ", n8, " é ", resultado, ".")
+    escreva("O resultado da soma entre ", n7, " e ", n8, " é ", resultado, ".\n")
 
    
-
-     escreva("Digite o primeiro número:")
+    escreva("Multiplicação:\n")
+     escreva("Digite o primeiro número:\n")
      leia(n5) 
-     escreva("Digite o segundo número:")
+     escreva("Digite o segundo número:\n")
      leia(n6) 
       mult = n5 * n6
-     escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult)
+     escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult, "\n")
   
-
-     escreva("Digite o primeiro numero: ")
+    escreva("Divisão:\n")
+     escreva("Digite o primeiro numero:\n")
     leia(n1)
 
       se (n1 == 0){
-      escreva("O numero nao pode ser 0, digite outro  : ")
+      escreva("O numero nao pode ser 0, digite outro:\n")
       leia(n1)
       }
-      escreva("Digite o segundo numero: ")
+      escreva("Digite o segundo numero:\n")
       leia(n2)
       se (n2 == 0 ){
-      escreva("Digite o primeiro numero: ")
+      escreva("Digite o primeiro numero:\n")
       leia(n2)
       }
 
       resul = n1 / n2
-      escreva("O resultado é: ",resul)
+      escreva("O resultado é: ",resul,"\n")
 
-
+    escreva("Subtração:\n")
     escreva ("Informe o primeiro valor: \n")
     leia (n3)
     escreva ("Informe o segundo valor: \n")
     leia (n4)
     sub = n3-n4
 
-    escreva ("O resultado é: ", sub)
+    escreva ("O resultado é: ", sub, "\n")
 
   }
 }
-
