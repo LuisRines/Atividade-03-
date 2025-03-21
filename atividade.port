@@ -1,5 +1,6 @@
 programa {
   funcao inicio() {
+
     real n3, n4, sub, n1, n2, resul, n5,n6,mult
 
 escreva("Digite o primeiro número:")
@@ -9,6 +10,10 @@ escreva("Digite o primeiro número:")
 mult = n5 * n6
     escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult)
   
+
+
+   
+    
 
 
     escreva("Digite o primeiro numero: ")
@@ -28,12 +33,13 @@ mult = n5 * n6
     resul = n1 / n2
     escreva("O resultado é: ",resul)
 
-    
+
     escreva ("Informe o primeiro valor: \n")
     leia (n3)
     escreva ("Informe o segundo valor: \n")
     leia (n4)
     sub = n3-n4
+
     escreva ("O resultado é: ", sub)
   }
 }
