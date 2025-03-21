@@ -1,18 +1,40 @@
-
-
-
 programa {
   funcao inicio() {
-
-     real n1,n2,mult
+    real n3, n4, sub, n1, n2, resul, n5,n6,mult
 
 escreva("Digite o primeiro número:")
-     leia(n1) 
+     leia(n5) 
      escreva("Digite o segundo número:")
-     leia(n2) 
-mult = n1 * n2
-    escreva("O resultado da multiplicação do número ",n1," com o número ",n2, " é: ",mult)
+     leia(n6) 
+mult = n5 * n6
+    escreva("O resultado da multiplicação do número ",n5," com o número ",n6, " é: ",mult)
+  
+
+
+    escreva("Digite o primeiro numero: ")
+    leia(n1)
+
+    se (n1 == 0){
+      escreva("O numero nao pode ser 0, digite outro  : ")
+      leia(n1)
+      }
+    escreva("Digite o segundo numero: ")
+    leia(n2)
+    se (n2 == 0 ){
+      escreva("Digite o primeiro numero: ")
+      leia(n2)
+      }
+
+    resul = n1 / n2
+    escreva("O resultado é: ",resul)
+
+    
+    escreva ("Informe o primeiro valor: \n")
+    leia (n3)
+    escreva ("Informe o segundo valor: \n")
+    leia (n4)
+    sub = n3-n4
+    escreva ("O resultado é: ", sub)
   }
 }
-
 
