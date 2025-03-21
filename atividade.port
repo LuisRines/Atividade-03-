@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
 
+
     real n7, n8, resultado, n1, n2, resul,n3, n4, sub
     escreva("Digite o primeiro número: \n")
     leia(n7)
@@ -9,7 +10,6 @@ programa {
     resultado = n7 + n8
     escreva("O resultado da soma entre ", n7, " e ", n8, " é ", resultado, ".")
 
-    
 
     escreva("Digite o primeiro numero: ")
     leia(n1)
@@ -28,12 +28,13 @@ programa {
     resul = n1 / n2
     escreva("O resultado é: ",resul)
 
-    
+
     escreva ("Informe o primeiro valor: \n")
     leia (n3)
     escreva ("Informe o segundo valor: \n")
     leia (n4)
     sub = n3-n4
+
     escreva ("O resultado é: ", sub)
 
   }
