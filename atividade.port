@@ -20,6 +20,12 @@ programa {
     resul = n1 / n2
     escreva("O resultado é: ",resul)
 
+    real n3, n4, sub
+    escreva ("Informe o primeiro valor: \n")
+    leia (n3)
+    escreva ("Informe o segundo valor: \n")
+    leia (n4)
+    sub = n3-n4
+    escreva ("O resultado é: ", sub)
   }
 }
-
