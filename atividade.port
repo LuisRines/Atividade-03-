@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    real n7, n8, resultado, n1, n2, resul,n3, n4, sub,n5,n6,mult
+    real n7, n8, resultado, n1, n2, resul,k, j, sub,n5,n6,mult
     
     escreva("Soma:\n")
     escreva("Digite o primeiro número: \n")
@@ -39,12 +39,13 @@ programa {
 
     escreva("Subtração:\n")
     escreva ("Informe o primeiro valor: \n")
-    leia (n3)
+    leia (k)
     escreva ("Informe o segundo valor: \n")
-    leia (n4)
-    sub = n3-n4
+    leia (j)
+    sub = k-j
 
-    escreva ("O resultado é: ", sub, "\n")
+    escreva ("O resultado obtido é: ", sub, "\n")
 
   }
-}
+} 
+
